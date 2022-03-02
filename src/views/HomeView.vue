@@ -9,9 +9,6 @@
 </nav>
 
   <div class="container-float">
-    <div class="row">
-          <h1 class="my-3">Aston School Newspaper</h1>
-    </div>
 
     <!-- <IssueCard
     v-for="Issue in Issues"
