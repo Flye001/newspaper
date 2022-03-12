@@ -1,19 +1,19 @@
 <template>
-  <div class="container-float">
+  <div class="container px-3 mx-auto">
 
-  <div class="row">
+    <div class="flex flex-wrap">
 
-    <div
-    v-for="article in AllArticles"
-    :key="article"
-    class="col col-12 col-sm-4 col-md-3">
+      <div
+      v-for="article in AllArticles"
+      :key="article"
+      class="w-full my-2">
 
-    <ArticleCard
-    :Article="article"></ArticleCard>
+      <ArticleCard
+      :Article="article"></ArticleCard>
+
+      </div>
 
     </div>
-
-  </div>
 
   </div>
 </template>

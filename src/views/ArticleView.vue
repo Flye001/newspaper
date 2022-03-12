@@ -1,14 +1,24 @@
 <template>
-  <h3>{{ Title }}</h3>
-  <div v-html="HTML" class="article-body"></div>
+  <div class="container mx-auto text-left p-5 md:outline md:outline-1 md:outline-gray-300 mb-5">
+    <h3 class="text-3xl my-2 sm:my-5 text-center md:text-left">{{ Title }}</h3>
+    <div v-html="HTML" class="article-body"></div>
+  </div>
+
 </template>
 
-<style scoped>
-h3 {
-  text-align: left;
+<style>
+p {
+  @apply my-3 !important
 }
-.article-body {
-  text-align: left;
+h5 {
+  @apply font-bold my-5 text-xl !important
+}
+li {
+  list-style-type: disc;
+  @apply ml-2 my-2
+}
+img {
+  @apply mx-auto
 }
 </style>
 
