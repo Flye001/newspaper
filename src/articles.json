@@ -1,20 +1,31 @@
 {
     "Articles": [
         {
+            "Id": 4,
+            "Title": "A Conversation About Sickle Cell",
+            "Description": "A few months ago, I was on twitter and saw that sickle cell had been trending. As a person with sickle cell, I was naturally curious to see what it was all about, and I was met with dozens of tweets by other sickle cell warriors, expressing their outrage over a video posted on youtube.",
+            "Author": "Zuben Adjei",
+            "Date": "12th March 2022",
+            "Category": "Opinion",
+            "ImageURL": "https://static01.nyt.com/images/2014/10/21/science/20consumer/20consumer-tmagArticle-v2.jpg"
+        },
+        {
             "Id": 2,
-            "Title": "Are grades an accurate measure of an individual's intelligence?",
+            "Title": "Are Grades an Accurate Measure of an Individual's Intelligence?",
             "Description": "Grades are assigned to every student in the country, even in the world and this is just the standard we have come to expect. But are they right, do they even effectively serve their purpose?",
             "Author": "Nadir Ahmed-Ali",
             "Date": "12th March 2022",
+            "Category": "Opinion",
             "ImageURL": "https://cdn.theatlantic.com/thumbor/bJSy_5XCqutWByU0sESS508q_jY=/8x75:1016x642/960x540/media/img/mt/2015/01/6263897021_34bfa46a90_b/original.jpg"
         },
         {
             "Id": 3,
-            "Title": "A permanent cure for sickle cell?",
+            "Title": "A Permanent Cure for Sickle Cell?",
             "Description": "Many are still unaware as to what the sickle cell disease even is. Not to worry as this article will educate you on what it is, and the progression made in terms of the treatment for it.",
             "Author": "Shashank Iyer",
             "Date": "9th March 2022",
-            "ImageURL": "/img/putin1.jpg"
+            "Category": "Idk",
+            "ImageURL": "https://media.istockphoto.com/vectors/coming-soon-lettering-coming-soon-for-promotion-advertisement-sale-vector-id1221240925?k=20&m=1221240925&s=612x612&w=0&h=HX77CIwJ34u7qUMpI_W5z4dDnEbHGv66mGXVTpIccv8="
         },
         {
             "Id": 1,
@@ -22,6 +33,7 @@
             "Description": "Russia's invasion of Ukraine is ongoing. This article will resultantly be incomplete, with a comprehensive recap of events only being possible after the fact.",
             "Author": "Kai Frater-Robertson",
             "Date": "6th March 2022",
+            "Category": "Idk",
             "ImageURL": "/img/putin1.jpg"
         }
     ]

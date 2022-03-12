@@ -8,12 +8,16 @@
             <a class="btn btn-sm btn-primary" @click="LoadArticle">Read More</a>
         </div>
     </div> -->
-    <div class="flex gap-5 outline outline-1 outline-gray-300 cursor-pointer" @click="LoadArticle">
-      <img :src="Article.ImageURL" class="w-1/2 h-min my-auto">
-      <div class="flex flex-col text-left mt-5">
+    <div class="flex flex-col md:flex-row gap-5 outline outline-1 outline-gray-300 cursor-pointer" @click="LoadArticle">
+      <img :src="Article.ImageURL" class="w-1/2 min-w-0 max-w-full h-min my-auto">
+      <div class="flex flex-col text-left mt-5 p-1">
         <h1 class="text-sm italic">{{ Article.Author }}</h1>
+        <h1 class="text-xs italic">{{ Article.Date }}</h1>
+
         <h1 class="text-2xl">{{ Article.Title }}</h1>
         <p class="mt-3">{{ Article.Description }}</p>
+
+        <h1 class="text-sm mt-auto">Category: <span class="italic">{{ Article.Category }}</span></h1>
       </div>
     </div>
 </template>
