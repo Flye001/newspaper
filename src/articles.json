@@ -9,6 +9,14 @@
             "ImageURL": "https://cdn.theatlantic.com/thumbor/bJSy_5XCqutWByU0sESS508q_jY=/8x75:1016x642/960x540/media/img/mt/2015/01/6263897021_34bfa46a90_b/original.jpg"
         },
         {
+            "Id": 3,
+            "Title": "A permanent cure for sickle cell?",
+            "Description": "Many are still unaware as to what the sickle cell disease even is. Not to worry as this article will educate you on what it is, and the progression made in terms of the treatment for it.",
+            "Author": "Shashank Iyer",
+            "Date": "9th March 2022",
+            "ImageURL": "/img/putin1.jpg"
+        },
+        {
             "Id": 1,
             "Title": "A Recap of Russian Conflict with Ukraine",
             "Description": "Russia's invasion of Ukraine is ongoing. This article will resultantly be incomplete, with a comprehensive recap of events only being possible after the fact.",
