@@ -28,7 +28,8 @@ export default {
         name: 'article',
         params: {
           Title: this.Article.Title,
-          HTML: this.Article.ArticleHTML
+          Id: this.Article.Id
+          // HTML: this.Article.ArticleHTML
         }
       })
     }

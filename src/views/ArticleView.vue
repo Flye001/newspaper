@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto text-left p-5 md:outline md:outline-1 md:outline-gray-300 mb-5">
     <h3 class="text-3xl my-2 sm:my-5 text-center md:text-left">{{ Title }}</h3>
-    <div v-html="HTML" class="article-body"></div>
+    <div v-html="ArticleHTML" class="article-body"></div>
   </div>
 
 </template>
@@ -24,6 +24,20 @@ img {
 
 <script>
 export default {
-  props: ['Title', 'HTML']
+  props: ['Title', 'Id'],
+  data () {
+    return {
+      ArticleHTML: ''
+    }
+  },
+  beforeMount: function () {
+    console.log(this.Id)
+    // import article from `@/articles/${this.Id}.html`
+    fetch(`/articles/${this.Id}.html`)
+      .then(response => response.text())
+      .then(text => {
+        this.ArticleHTML = text
+      })
+  }
 }
 </script>
