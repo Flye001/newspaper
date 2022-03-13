@@ -24,8 +24,8 @@
             "Description": "Many are still unaware as to what the sickle cell disease even is. Not to worry as this article will educate you on what it is, and the progression made in terms of the treatment for it.",
             "Author": "Shashank Iyer",
             "Date": "9th March 2022",
-            "Category": "Idk",
-            "ImageURL": "https://media.istockphoto.com/vectors/coming-soon-lettering-coming-soon-for-promotion-advertisement-sale-vector-id1221240925?k=20&m=1221240925&s=612x612&w=0&h=HX77CIwJ34u7qUMpI_W5z4dDnEbHGv66mGXVTpIccv8="
+            "Category": "Science & Medicine",
+            "ImageURL": "https://i2.wp.com/rss.alabamanewscenter.com/wp-content/uploads/2021/12/GettyImages-1281522903-1.jpg"
         },
         {
             "Id": 1,
@@ -33,7 +33,7 @@
             "Description": "Russia's invasion of Ukraine is ongoing. This article will resultantly be incomplete, with a comprehensive recap of events only being possible after the fact.",
             "Author": "Kai Frater-Robertson",
             "Date": "6th March 2022",
-            "Category": "Idk",
+            "Category": "Current Events",
             "ImageURL": "/img/putin1.jpg"
         }
     ]
