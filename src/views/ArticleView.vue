@@ -31,7 +31,7 @@ export default {
     }
   },
   beforeMount: function () {
-    console.log(this.Id)
+    // console.log(this.Id)
     // import article from `@/articles/${this.Id}.html`
     fetch(`/articles/${this.Id}.html`)
       .then(response => response.text())

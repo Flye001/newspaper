@@ -1,14 +1,6 @@
 <template>
-  <!-- <nav class="navbar navbar-light bg-light mb-2">
-    <div class="container-fluid">
-      <router-link class="navbar-brand" to="/">
-        <img src="https://www.keaston.bham.sch.uk/_site/images/design/logo.png" alt="" width="28" height="30" class="d-inline-block align-text-top">
-        Aston School Newspaper
-      </router-link>
-    </div>
-  </nav> -->
   <h1 class="text-3xl my-5">ASTON NEWSPAPER</h1>
-  <div class="flex gap-4 justify-center bg-gray-100 p-2 mt-5 md:my-5">
+  <div class="flex gap-4 justify-center bg-gray-100 p-2 mt-5 md:mt-5 md:mb-1">
     <router-link class="navbar-brand" to="/">
       <p>Home</p>
     </router-link>
@@ -19,10 +11,33 @@
       <p>Articles</p>
     </router-link>
   </div>
+  <div class="flex gap-4 justify-center text-xs">
+    <p @click="LoadCategory('Opinion')">Opinion</p>
+    <p @click="LoadCategory('Science & Medicine')">Science & Medicine</p>
+    <p @click="LoadCategory('Current Events')">Current Events</p>
+  </div>
   <router-view/>
 </template>
 
+<script>
+export default {
+  methods: {
+    LoadCategory (category) {
+      this.$router.push({
+        name: 'category',
+        params: {
+          Category: category
+        }
+      })
+    }
+  }
+}
+</script>
+
 <style>
+p {
+  @apply cursor-pointer
+}
 #app {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;

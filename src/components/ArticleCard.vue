@@ -27,7 +27,7 @@ export default {
   props: ['Article'],
   methods: {
     LoadArticle () {
-      console.log(this.Article)
+      // console.log(this.Article)
       this.$router.push({
         name: 'article',
         params: {
