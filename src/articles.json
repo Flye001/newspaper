@@ -1,6 +1,15 @@
 {
     "Articles": [
         {
+            "Id": 5,
+            "Title": "Kush: Sierra Leone's New Drug",
+            "Description": "This is the new drug that has slowly, but surely decimated communities in Sierra Leone.",
+            "Author": "Yusuf Samir",
+            "Date": "23rd March 2022",
+            "Category": "Current Events",
+            "ImageURL": "https://www.fairobserver.com/wp-content/uploads/2012/05/dsc_0082.jpg"
+        },
+        {
             "Id": 4,
             "Title": "A Conversation About Sickle Cell",
             "Description": "A few months ago, I was on twitter and saw that sickle cell had been trending. As a person with sickle cell, I was naturally curious to see what it was all about, and I was met with dozens of tweets by other sickle cell warriors, expressing their outrage over a video posted on youtube.",
