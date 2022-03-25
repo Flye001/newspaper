@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-3xl my-5">ASTON NEWSPAPER</h1>
+  <h1 class="text-3xl my-5 font-bold text-center">ASTON DIGEST</h1>
   <div class="flex gap-4 justify-center bg-gray-100 p-2 mt-5 md:mt-5 md:mb-1">
     <router-link class="navbar-brand" to="/">
       <p>Home</p>
@@ -7,7 +7,7 @@
     <router-link class="navbar-brand" to="/">
       <p>About</p>
     </router-link>
-    <router-link class="navbar-brand" to="/">
+    <router-link class="navbar-brand" to="/articles">
       <p>Articles</p>
     </router-link>
   </div>
@@ -34,7 +34,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 p {
   @apply cursor-pointer
 }

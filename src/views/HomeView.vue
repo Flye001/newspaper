@@ -1,17 +1,18 @@
 <template>
-  <div class="container px-3 mx-auto">
+  <div class="container px-3 mx-auto mt-3">
 
-    <div class="flex flex-wrap">
+    <div class="text-center">
 
-      <div
-      v-for="article in AllArticles"
-      :key="article"
-      class="w-full my-2">
+      <h1 class="text-3xl">Welcome to the Aston Digest!</h1>
+
+      <p>Some about us text goes here...</p>
+
+      <p class="py-5">Why not read out latest article:</p>
 
       <ArticleCard
-      :Article="article"></ArticleCard>
+      :Article="AllArticles[0]"></ArticleCard>
 
-      </div>
+      <p class="py-5">Or view <router-link to="/articles" class="font-bold">all articles</router-link>.</p>
 
     </div>
 
