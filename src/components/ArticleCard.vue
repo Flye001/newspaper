@@ -32,6 +32,7 @@ export default {
         name: 'article',
         params: {
           Title: this.Article.Title,
+          Author: this.Article.Author,
           Id: this.Article.Id
           // HTML: this.Article.ArticleHTML
         }

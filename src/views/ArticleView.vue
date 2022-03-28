@@ -1,5 +1,6 @@
 <template>
   <div class="container mx-auto text-left p-5 md:outline md:outline-1 md:outline-gray-300 mb-5">
+    <h1 class="text-sm italic">{{ Author }}</h1>
     <h3 class="text-3xl my-2 sm:my-5 text-center md:text-left">{{ Title }}</h3>
     <div v-html="ArticleHTML" class="article-body"></div>
   </div>
@@ -24,7 +25,7 @@ img {
 
 <script>
 export default {
-  props: ['Title', 'Id'],
+  props: ['Title', 'Author', 'Id'],
   data () {
     return {
       ArticleHTML: ''
